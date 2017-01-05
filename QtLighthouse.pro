@@ -31,7 +31,7 @@ HEADERS  += mainwindow.h
 FORMS    += mainwindow.ui
 
 LIBS += \
-    -F$(HOME)/Frameworks \
+    -F$(HOME)/Frameworks \ # Note: opencv2.framework must reside in ~/Frameworks
     -framework opencv2 \
     -framework AVFoundation \
     -framework AssetsLibrary \
