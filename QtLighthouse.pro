@@ -31,7 +31,7 @@ HEADERS  += mainwindow.h
 FORMS    += mainwindow.ui
 
 LIBS += \
-    -F/Users/david/Frameworks \
+    -F$(HOME)/Frameworks \
     -framework opencv2 \
     -framework AVFoundation \
     -framework AssetsLibrary \
