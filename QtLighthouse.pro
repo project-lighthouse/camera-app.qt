@@ -38,5 +38,9 @@ LIBS += \
     -framework CoreMedia \
     -framework CoreVideo \
 
+DISTFILES += \
+    arch/ios/Info.plist
 
-
+ios {
+    QMAKE_INFO_PLIST = arch/ios/Info.plist
+}

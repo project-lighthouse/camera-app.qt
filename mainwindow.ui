@@ -30,14 +30,17 @@
      <string>Record a new label</string>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="visualFeedback">
+   <widget class="QLabel" name="visualFeedback">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>20</x>
       <y>20</y>
-      <width>256</width>
-      <height>192</height>
+      <width>281</width>
+      <height>191</height>
      </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
